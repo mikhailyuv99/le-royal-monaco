@@ -1,0 +1,151 @@
+{
+  "pages": {
+    "index": {
+      "hero": {
+        "eyebrow": "Monaco — Haute Gastronomie",
+        "title": "L'art de\nl'excellence",
+        "subtitle": "Une expérience gastronomique d'exception au cœur de Monaco. Deux étoiles Michelin, une vue sur la Méditerranée, un voyage culinaire inoubliable.",
+        "cta": "Réserver une table",
+        "video": "https://videos.pexels.com/video-files/3195394/3195394-uhd_2560_1440_25fps.mp4"
+      },
+      "ambiance": {
+        "title": "\"Chaque assiette raconte une histoire. Chaque instant devient un souvenir.\"",
+        "text": "Dans un cadre d'exception surplombant le port de Monaco, Le Royal vous invite à vivre la gastronomie comme un art à part entière.",
+        "video": "https://videos.pexels.com/video-files/3297379/3297379-uhd_2560_1440_25fps.mp4"
+      },
+      "about": {
+        "eyebrow": "Notre histoire",
+        "title": "Un héritage\nde passion",
+        "text": "Fondé en 1987 par le Chef étoilé Antoine Beaumont, Le Royal Monaco est devenu l'une des tables les plus prestigieuses de la Riviera. Notre philosophie : sublimer les produits d'exception de la Méditerranée avec un savoir-faire transmis sur trois générations. Chaque plat est une célébration de la terre et de la mer, composé avec une précision absolue et une créativité sans limites.",
+        "signature": "— Chef Antoine Beaumont, fondateur",
+        "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=960&q=85&auto=format"
+      },
+      "experience": {
+        "eyebrow": "L'expérience",
+        "title": "Un voyage pour les sens",
+        "video": "https://videos.pexels.com/video-files/3769746/3769746-uhd_2560_1440_24fps.mp4",
+        "poster": "https://images.unsplash.com/photo-1550966871-3ed3cdb51f3a?w=1280&q=80&auto=format"
+      },
+      "offer": {
+        "eyebrow": "Offre exclusive",
+        "title": "Le Menu\nDégustation",
+        "text": "Sept services d'exception composés par notre Chef exécutif, accompagnés d'un accord mets-vins sélectionné par notre sommelier. Un parcours gustatif qui traverse les saveurs de la Méditerranée, de la Provence à la Ligurie, en passant par la Corse et la Sardaigne.",
+        "cta": "Découvrir le menu",
+        "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=960&q=85&auto=format"
+      },
+      "menu": {
+        "eyebrow": "La Carte",
+        "title": "Nos créations signatures",
+        "subtitle": "Des plats d'exception composés avec les meilleurs produits de saison, livrés chaque matin depuis les marchés de la Riviera.",
+        "items": [
+          { "price": "€95", "title": "Homard Bleu de Bretagne", "description": "Bisque légère au safran de Provence, émulsion de corail, caviar Osciètre et chips de topinambour." },
+          { "price": "€120", "title": "Turbot Sauvage de Ligne", "description": "Rôti sur l'arête, beurre d'algues nori, artichaut violet de Provence et jus de coquillages réduit." },
+          { "price": "€85", "title": "Pigeon de Racan en Croûte", "description": "Farce fine aux cèpes et foie gras, sauce Périgueux, garniture forestière et pomme soufflée." },
+          { "price": "€145", "title": "Wagyu A5 Miyazaki", "description": "Grillé au binchotan, purée truffée, oignon de Cévennes caramélisé et jus de viande au miso." },
+          { "price": "€75", "title": "Saint-Jacques de Normandie", "description": "Snackées, purée de chou-fleur au beurre noisette, condiment yuzu-passion et voile de lard de Colonnata." },
+          { "price": "€280", "title": "Menu Dégustation 7 Services", "description": "Un voyage culinaire complet à travers les saveurs méditerranéennes. Accord mets-vins disponible (+€160)." }
+        ]
+      },
+      "gallery": {
+        "title": "L'élégance dans chaque détail",
+        "text": "Un cadre architectural signé Jean-Michel Wilmotte, mêlant marbre de Carrare, laiton brossé et vue panoramique sur la Grande Bleue.",
+        "image": "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=1920&q=85&auto=format"
+      },
+      "testimonials": {
+        "eyebrow": "Témoignages",
+        "title": "Ce qu'ils disent de nous",
+        "items": [
+          { "quote": "Une expérience culinaire absolument transcendante. Le menu dégustation est un chef-d'œuvre de précision et de créativité. La vue sur le port au coucher du soleil est magique.", "author": "Charlotte de Villiers", "role": "Critique gastronomique, Le Figaro" },
+          { "quote": "Le Royal est bien plus qu'un restaurant — c'est un voyage sensoriel. Le service est impeccable, discret mais toujours présent. Chaque visite est une redécouverte.", "author": "James Harrison", "role": "Forbes Travel Guide" },
+          { "quote": "Mon lieu de prédilection sur la Côte d'Azur depuis quinze ans. Le Chef Beaumont réinvente constamment sa carte tout en préservant l'âme de la Méditerranée.", "author": "Sophia Marchetti", "role": "Ambassadrice Relais & Châteaux" }
+        ]
+      },
+      "faq": {
+        "eyebrow": "Questions fréquentes",
+        "title": "Informations pratiques",
+        "items": [
+          { "question": "Quel est le code vestimentaire ?", "answer": "Nous demandons une tenue élégante. Pour les messieurs, une veste est appréciée le soir. Les shorts, tongs et vêtements de sport ne sont pas admis dans nos salles." },
+          { "question": "Faut-il réserver à l'avance ?", "answer": "Nous recommandons fortement une réservation, en particulier pour le dîner et les week-ends. En haute saison (juin–septembre), nous conseillons de réserver 2 à 3 semaines à l'avance." },
+          { "question": "Proposez-vous des options végétariennes ?", "answer": "Absolument. Notre Chef compose un menu dégustation végétarien complet de 7 services, utilisant exclusivement des légumes de notre potager biologique et des producteurs locaux." },
+          { "question": "Le restaurant est-il accessible en fauteuil roulant ?", "answer": "Oui, Le Royal est entièrement accessible. Un ascenseur privé dessert tous les niveaux, et notre terrasse est de plain-pied." },
+          { "question": "Peut-on privatiser le restaurant ?", "answer": "Nous proposons la privatisation totale ou partielle pour vos événements. Notre salon privé accueille jusqu'à 24 convives. Contactez notre équipe événementielle pour un devis sur mesure." }
+        ]
+      },
+      "reservation": {
+        "title": "Votre table vous attend",
+        "text": "Réservez votre expérience gastronomique au cœur de Monaco. Notre équipe se tient à votre disposition pour personnaliser chaque détail de votre soirée.",
+        "phone": "+377 98 06 25 25",
+        "email": "reservation@leroyal-monaco.mc",
+        "cta": "Réserver par email",
+        "address": "Place du Casino, 98000 Monaco\nOuvert du mardi au samedi — 12h00 à 14h30 & 19h30 à 23h00",
+        "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1920&q=85&auto=format"
+      }
+    },
+    "carte": {
+      "hero": {
+        "eyebrow": "Monaco — Haute Gastronomie",
+        "title": "La Carte",
+        "subtitle": "Découvrez l'ensemble de nos créations, composées chaque jour avec les produits les plus fins de la Riviera.",
+        "cta": "Réserver",
+        "video": "https://videos.pexels.com/video-files/4253540/4253540-uhd_2560_1440_25fps.mp4"
+      },
+      "menu": {
+        "eyebrow": "Entrées",
+        "title": "Les plats de la saison",
+        "subtitle": "Carte mise à jour quotidiennement selon les arrivages du marché.",
+        "items": [
+          { "price": "€65", "title": "Caviar Osciètre 30g", "description": "Servi sur blinis de sarrasin, crème fraîche d'Isigny et ciboulette. Supplément 50g : +€90." },
+          { "price": "€48", "title": "Foie Gras de Canard", "description": "Mi-cuit maison, chutney de figues, pain brioché toasté et fleur de sel de Guérande." },
+          { "price": "€95", "title": "Homard Bleu de Bretagne", "description": "Bisque légère au safran de Provence, émulsion de corail, caviar Osciètre." },
+          { "price": "€120", "title": "Turbot Sauvage de Ligne", "description": "Rôti sur l'arête, beurre d'algues nori, artichaut violet." },
+          { "price": "€85", "title": "Pigeon de Racan en Croûte", "description": "Farce fine aux cèpes et foie gras, sauce Périgueux." },
+          { "price": "€145", "title": "Wagyu A5 Miyazaki", "description": "Grillé au binchotan, purée truffée, oignon de Cévennes." },
+          { "price": "€32", "title": "Soufflé au Grand Marnier", "description": "Servi avec glace vanille de Madagascar et zeste d'orange confite." },
+          { "price": "€38", "title": "Tarte Tatin Revisitée", "description": "Pommes caramélisées, crème glacée au caramel beurre salé et tuile dentelle." }
+        ]
+      },
+      "reservation": {
+        "title": "Réservez votre table",
+        "text": "Nous vous accueillons du mardi au samedi pour le déjeuner et le dîner.",
+        "phone": "+377 98 06 25 25",
+        "email": "reservation@leroyal-monaco.mc",
+        "cta": "Réserver par email",
+        "address": "Place du Casino, 98000 Monaco",
+        "image": "https://images.unsplash.com/photo-1550966871-3ed3cdb51f3a?w=1920&q=85&auto=format"
+      }
+    },
+    "private": {
+      "hero": {
+        "eyebrow": "Événements privés",
+        "title": "Privatisation\n& réceptions",
+        "subtitle": "Un lieu d'exception pour vos moments les plus précieux. Mariages, galas, dîners d'affaires — nous créons l'événement à votre image.",
+        "cta": "Nous contacter",
+        "video": "https://videos.pexels.com/video-files/3195394/3195394-uhd_2560_1440_25fps.mp4"
+      },
+      "about": {
+        "eyebrow": "Nos espaces",
+        "title": "Un écrin\nd'exception",
+        "text": "Le Royal dispose de trois espaces privatisables : le Salon Grimaldi (24 couverts), la Terrasse Panoramique (80 couverts) et la salle principale (120 couverts). Chaque espace peut être configuré selon vos souhaits, avec un service sur mesure signé Le Royal.",
+        "signature": "— Équipe événementielle Le Royal",
+        "image": "https://images.unsplash.com/photo-1519167758481-83f550bb49b3?w=960&q=85&auto=format"
+      },
+      "offer": {
+        "eyebrow": "Formules",
+        "title": "Des forfaits\nsur mesure",
+        "text": "Du cocktail dînatoire au dîner assis en 7 services, notre Chef et notre sommelier composent un menu exclusif pour votre événement. Décoration florale, mise en lumière, animation musicale — chaque détail est pensé avec vous.",
+        "cta": "Demander un devis",
+        "image": "https://images.unsplash.com/photo-1530103862676-de8c9debad1d?w=960&q=85&auto=format"
+      },
+      "reservation": {
+        "title": "Planifions votre événement",
+        "text": "Notre équipe dédiée vous accompagne dans la conception de votre soirée. Contactez-nous pour une visite privée des lieux.",
+        "phone": "+377 98 06 25 30",
+        "email": "events@leroyal-monaco.mc",
+        "cta": "Écrire à l'équipe",
+        "address": "Place du Casino, 98000 Monaco\nÉquipe événementielle disponible du lundi au vendredi, 9h–18h",
+        "image": "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=1920&q=85&auto=format"
+      }
+    }
+  },
+  "pageOrder": ["index", "carte", "private"]
+}
