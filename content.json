@@ -33,6 +33,35 @@
         "cta": "Découvrir le menu",
         "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=960&q=85&auto=format"
       },
+      "dishes": {
+        "eyebrow": "Signatures",
+        "title": "Une cuisine\nphotogénique",
+        "subtitle": "Des assiettes sculptées, des textures ciselées, des produits rares — chaque création est pensée comme une pièce de haute couture culinaire.",
+        "dish1Title": "Homard Bleu de Bretagne",
+        "dish1Price": "€95",
+        "dish1Text": "Bisque légère au safran, émulsion de corail, caviar Osciètre, chips de topinambour.",
+        "dish1Image": "https://images.unsplash.com/photo-1553621042-f6e147245754?w=1600&q=85&auto=format",
+        "dish2Title": "Turbot Sauvage de Ligne",
+        "dish2Price": "€120",
+        "dish2Text": "Rôti sur l'arête, beurre d'algues nori, artichaut violet, jus de coquillages réduit.",
+        "dish2Image": "https://images.unsplash.com/photo-1548940740-204726a19be3?w=1600&q=85&auto=format",
+        "dish3Title": "Wagyu A5 Miyazaki",
+        "dish3Price": "€145",
+        "dish3Text": "Grillé au binchotan, purée truffée, oignon de Cévennes, jus au miso.",
+        "dish3Image": "https://images.unsplash.com/photo-1604908176997-125f25cc500f?w=1600&q=85&auto=format",
+        "dish4Title": "Saint‑Jacques de Normandie",
+        "dish4Price": "€75",
+        "dish4Text": "Snackées, chou-fleur au beurre noisette, yuzu, voile de lard de Colonnata.",
+        "dish4Image": "https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=1600&q=85&auto=format",
+        "dish5Title": "Tarte Tatin Revisitée",
+        "dish5Price": "€38",
+        "dish5Text": "Pommes caramélisées, glace vanille, tuile dentelle, caramel beurre salé.",
+        "dish5Image": "https://images.unsplash.com/photo-1495147466023-ac5c588e2e94?w=1600&q=85&auto=format",
+        "dish6Title": "Menu Dégustation 7 Services",
+        "dish6Price": "€280",
+        "dish6Text": "Un parcours complet. Accord mets‑vins disponible (+€160).",
+        "dish6Image": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=1600&q=85&auto=format"
+      },
       "menu": {
         "eyebrow": "La Carte",
         "title": "Nos créations signatures",
@@ -78,6 +107,116 @@
         "email": "reservation@leroyal-monaco.mc",
         "cta": "Réserver par email",
         "address": "Place du Casino, 98000 Monaco\nOuvert du mardi au samedi — 12h00 à 14h30 & 19h30 à 23h00",
+        "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1920&q=85&auto=format"
+      }
+    },
+    "index-en": {
+      "hero": {
+        "eyebrow": "Monaco — Fine Dining",
+        "title": "The art of\nexcellence",
+        "subtitle": "An exceptional gastronomic experience in the heart of Monaco. Two Michelin stars, Mediterranean views, and a journey you’ll remember.\n",
+        "cta": "Reserve a table",
+        "video": "https://videos.pexels.com/video-files/3195394/3195394-uhd_2560_1440_25fps.mp4"
+      },
+      "ambiance": {
+        "title": "\"Every plate tells a story. Every moment becomes a memory.\"",
+        "text": "Overlooking Monaco’s harbor, Le Royal invites you to experience cuisine as a true art form.",
+        "video": "https://videos.pexels.com/video-files/3297379/3297379-uhd_2560_1440_25fps.mp4"
+      },
+      "about": {
+        "eyebrow": "Our story",
+        "title": "A legacy\nof passion",
+        "text": "Founded in 1987 by Michelin‑starred Chef Antoine Beaumont, Le Royal Monaco has become one of the Riviera’s most celebrated tables. Our philosophy: elevate extraordinary Mediterranean ingredients with uncompromising craft. Each dish is a precise, contemporary tribute to sea and land.",
+        "signature": "— Chef Antoine Beaumont, founder",
+        "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=960&q=85&auto=format"
+      },
+      "experience": {
+        "eyebrow": "The experience",
+        "title": "A journey for the senses",
+        "video": "https://videos.pexels.com/video-files/3769746/3769746-uhd_2560_1440_24fps.mp4",
+        "poster": "https://images.unsplash.com/photo-1550966871-3ed3cdb51f3a?w=1280&q=80&auto=format"
+      },
+      "offer": {
+        "eyebrow": "Exclusive offer",
+        "title": "The tasting\nmenu",
+        "text": "Seven exceptional courses composed by our Executive Chef, with optional wine pairing curated by our sommelier. A Mediterranean journey from Provence to Liguria, with Corsican and Sardinian accents.",
+        "cta": "Explore the menu",
+        "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=960&q=85&auto=format"
+      },
+      "dishes": {
+        "eyebrow": "Signatures",
+        "title": "Cuisine that\nphotographs",
+        "subtitle": "Sculpted plates, precise textures, rare ingredients — each creation is designed like haute couture, served on porcelain.",
+        "dish1Title": "Brittany Blue Lobster",
+        "dish1Price": "€95",
+        "dish1Text": "Saffron bisque, coral emulsion, Osciètre caviar, Jerusalem artichoke crisps.",
+        "dish1Image": "https://images.unsplash.com/photo-1553621042-f6e147245754?w=1600&q=85&auto=format",
+        "dish2Title": "Wild Line‑Caught Turbot",
+        "dish2Price": "€120",
+        "dish2Text": "Roasted on the bone, nori seaweed butter, violet artichoke, reduced shellfish jus.",
+        "dish2Image": "https://images.unsplash.com/photo-1548940740-204726a19be3?w=1600&q=85&auto=format",
+        "dish3Title": "Miyazaki A5 Wagyu",
+        "dish3Price": "€145",
+        "dish3Text": "Binchotan grilled, truffled purée, caramelized sweet onion, miso glaze.",
+        "dish3Image": "https://images.unsplash.com/photo-1604908176997-125f25cc500f?w=1600&q=85&auto=format",
+        "dish4Title": "Normandy Scallops",
+        "dish4Price": "€75",
+        "dish4Text": "Seared, brown‑butter cauliflower, yuzu condiment, Colonnata lardo veil.",
+        "dish4Image": "https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=1600&q=85&auto=format",
+        "dish5Title": "Reimagined Tarte Tatin",
+        "dish5Price": "€38",
+        "dish5Text": "Caramelized apples, vanilla ice cream, lace tuile, salted caramel.",
+        "dish5Image": "https://images.unsplash.com/photo-1495147466023-ac5c588e2e94?w=1600&q=85&auto=format",
+        "dish6Title": "Chef’s 7‑Course Tasting",
+        "dish6Price": "€280",
+        "dish6Text": "A complete journey. Wine pairing available (+€160).",
+        "dish6Image": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=1600&q=85&auto=format"
+      },
+      "menu": {
+        "eyebrow": "À la carte",
+        "title": "Signature creations",
+        "subtitle": "Extraordinary dishes crafted with the finest seasonal ingredients, sourced each morning from the Riviera’s markets.",
+        "items": [
+          { "price": "€95", "title": "Brittany Blue Lobster", "description": "Saffron bisque, coral emulsion, Osciètre caviar, Jerusalem artichoke crisps." },
+          { "price": "€120", "title": "Wild Line‑Caught Turbot", "description": "Roasted on the bone, nori butter, violet artichoke, reduced shellfish jus." },
+          { "price": "€85", "title": "Racan Pigeon en Croûte", "description": "Fine forcemeat with porcini and foie gras, Périgueux sauce, forest garnish." },
+          { "price": "€145", "title": "Miyazaki A5 Wagyu", "description": "Binchotan grilled, truffled purée, caramelized onion, miso jus." },
+          { "price": "€75", "title": "Normandy Scallops", "description": "Seared, brown‑butter cauliflower, yuzu condiment, Colonnata lardo veil." },
+          { "price": "€280", "title": "7‑Course Tasting Menu", "description": "A complete Mediterranean journey. Wine pairing available (+€160)." }
+        ]
+      },
+      "gallery": {
+        "title": "Elegance in every detail",
+        "text": "Architecture by Jean‑Michel Wilmotte — Carrara marble, brushed brass, and a panoramic view of the Mediterranean.",
+        "image": "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=1920&q=85&auto=format"
+      },
+      "testimonials": {
+        "eyebrow": "Testimonials",
+        "title": "What guests say",
+        "items": [
+          { "quote": "A transcendent culinary experience. The tasting menu is a masterpiece of precision and creativity. Sunset over the harbor is unforgettable.", "author": "Charlotte de Villiers", "role": "Food critic, Le Figaro" },
+          { "quote": "Le Royal is more than a restaurant — it’s a sensory journey. Service is impeccable, discreet, and perfectly timed.", "author": "James Harrison", "role": "Forbes Travel Guide" },
+          { "quote": "My favorite table on the Côte d’Azur for fifteen years. Chef Beaumont reinvents the menu while preserving the Mediterranean soul.", "author": "Sophia Marchetti", "role": "Relais & Châteaux Ambassador" }
+        ]
+      },
+      "faq": {
+        "eyebrow": "FAQ",
+        "title": "Practical information",
+        "items": [
+          { "question": "What is the dress code?", "answer": "Elegant attire is required. Jackets are appreciated in the evening. Shorts, flip‑flops, and sportswear are not permitted in our dining rooms." },
+          { "question": "Do we need to book in advance?", "answer": "We strongly recommend reservations, especially for dinner and weekends. In high season (June–September), we suggest booking 2–3 weeks ahead." },
+          { "question": "Do you offer vegetarian options?", "answer": "Yes. Our Chef composes a full 7‑course vegetarian tasting menu using produce from our organic garden and local artisans." },
+          { "question": "Is the restaurant wheelchair accessible?", "answer": "Yes, Le Royal is fully accessible. A private lift serves all levels and the terrace is step‑free." },
+          { "question": "Can we privatize the restaurant?", "answer": "We offer full or partial privatization for events. Our private salon hosts up to 24 guests. Contact our events team for a bespoke proposal." }
+        ]
+      },
+      "reservation": {
+        "title": "Your table awaits",
+        "text": "Reserve your gastronomic experience in Monaco. Our team is available to personalize every detail of your evening.",
+        "phone": "+377 98 06 25 25",
+        "email": "reservation@leroyal-monaco.mc",
+        "cta": "Reserve by email",
+        "address": "Place du Casino, 98000 Monaco\nOpen Tue–Sat — 12:00–14:30 & 19:30–23:00",
         "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1920&q=85&auto=format"
       }
     },
@@ -147,5 +286,5 @@
       }
     }
   },
-  "pageOrder": ["index", "carte", "private"]
+  "pageOrder": ["index", "carte", "private", "index-en"]
 }

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -11,8 +11,6 @@
 </head>
 <body>
 
-  <div class="grain"></div>
-
   <nav class="site-nav" id="site-nav" aria-label="Pages" hidden>
     <div class="nav__inner">
       <a href="#" class="nav__logo">Le Royal</a>
@@ -20,6 +18,11 @@
         <a href="#index" class="site-nav__link" data-page="index">Accueil</a>
         <a href="#carte" class="site-nav__link" data-page="carte">La Carte</a>
         <a href="#private" class="site-nav__link" data-page="private">Privatisation</a>
+      </div>
+      <div class="nav__lang" aria-label="Language">
+        <a href="#index" class="nav__lang-btn" data-lang="fr">FR</a>
+        <span class="nav__lang-sep">/</span>
+        <a href="#index-en" class="nav__lang-btn" data-lang="en">EN</a>
       </div>
     </div>
   </nav>
@@ -107,6 +110,85 @@
           <div class="offer__media" data-cms-media="image" data-anim="fade-left">
             <div data-cms-render></div>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ════════════════ SIGNATURE DISHES (photos) ════════════════ -->
+    <section data-section="dishes">
+      <div class="dishes">
+        <div class="dishes__header" data-anim="fade-up">
+          <p class="dishes__eyebrow" data-cms-field="eyebrow">Signatures</p>
+          <h2 class="dishes__title" data-cms-field="title"></h2>
+          <p class="dishes__subtitle" data-cms-field="subtitle"></p>
+        </div>
+
+        <div class="dishes__grid" data-anim="fade-up">
+          <article class="dish">
+            <div class="dish__media" data-cms-media="image" data-cms-src="dish1Image"><div data-cms-render></div></div>
+            <div class="dish__meta">
+              <div class="dish__top">
+                <h3 class="dish__name" data-cms-field="dish1Title">Homard Bleu</h3>
+                <span class="dish__price" data-cms-field="dish1Price">€95</span>
+              </div>
+              <p class="dish__desc" data-cms-field="dish1Text"></p>
+            </div>
+          </article>
+
+          <article class="dish">
+            <div class="dish__media" data-cms-media="image" data-cms-src="dish2Image"><div data-cms-render></div></div>
+            <div class="dish__meta">
+              <div class="dish__top">
+                <h3 class="dish__name" data-cms-field="dish2Title">Turbot Sauvage</h3>
+                <span class="dish__price" data-cms-field="dish2Price">€120</span>
+              </div>
+              <p class="dish__desc" data-cms-field="dish2Text"></p>
+            </div>
+          </article>
+
+          <article class="dish">
+            <div class="dish__media" data-cms-media="image" data-cms-src="dish3Image"><div data-cms-render></div></div>
+            <div class="dish__meta">
+              <div class="dish__top">
+                <h3 class="dish__name" data-cms-field="dish3Title">Wagyu A5</h3>
+                <span class="dish__price" data-cms-field="dish3Price">€145</span>
+              </div>
+              <p class="dish__desc" data-cms-field="dish3Text"></p>
+            </div>
+          </article>
+
+          <article class="dish">
+            <div class="dish__media" data-cms-media="image" data-cms-src="dish4Image"><div data-cms-render></div></div>
+            <div class="dish__meta">
+              <div class="dish__top">
+                <h3 class="dish__name" data-cms-field="dish4Title">Saint‑Jacques</h3>
+                <span class="dish__price" data-cms-field="dish4Price">€75</span>
+              </div>
+              <p class="dish__desc" data-cms-field="dish4Text"></p>
+            </div>
+          </article>
+
+          <article class="dish dish--wide">
+            <div class="dish__media" data-cms-media="image" data-cms-src="dish5Image"><div data-cms-render></div></div>
+            <div class="dish__meta">
+              <div class="dish__top">
+                <h3 class="dish__name" data-cms-field="dish5Title">Dessert Signature</h3>
+                <span class="dish__price" data-cms-field="dish5Price">€38</span>
+              </div>
+              <p class="dish__desc" data-cms-field="dish5Text"></p>
+            </div>
+          </article>
+
+          <article class="dish dish--tall">
+            <div class="dish__media" data-cms-media="image" data-cms-src="dish6Image"><div data-cms-render></div></div>
+            <div class="dish__meta">
+              <div class="dish__top">
+                <h3 class="dish__name" data-cms-field="dish6Title">Chef’s Tasting</h3>
+                <span class="dish__price" data-cms-field="dish6Price">€280</span>
+              </div>
+              <p class="dish__desc" data-cms-field="dish6Text"></p>
+            </div>
+          </article>
         </div>
       </div>
     </section>
@@ -216,6 +298,9 @@
     </div>
   </footer>
 
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
   <script src="js/app.js"></script>
+  <script src="js/motion.js"></script>
 </body>
 </html>
