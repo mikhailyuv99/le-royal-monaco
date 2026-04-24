@@ -193,7 +193,60 @@
       </div>
     </section>
 
-    <!-- ════════════════ MENU / PRICING ════════════════ -->
+    <!-- ════════════════ VALUES ════════════════ -->
+    <section data-section="values">
+      <div class="values">
+        <div class="values__header" data-anim="fade-up">
+          <p class="values__eyebrow" data-cms-field="eyebrow">Valeurs</p>
+          <h2 class="values__title" data-cms-field="title"></h2>
+          <p class="values__subtitle" data-cms-field="subtitle"></p>
+        </div>
+
+        <div class="values__grid" data-cms-list="items" data-anim="fade-up"></div>
+        <template data-cms-card="items">
+          <div class="value-card">
+            <div class="value-card__icon" aria-hidden="true">✶</div>
+            <h3 class="value-card__title" data-cms-card-field="title"></h3>
+            <p class="value-card__desc" data-cms-card-field="description"></p>
+          </div>
+        </template>
+      </div>
+    </section>
+
+    <!-- ════════════════ SPECIAL MENU (feature) ════════════════ -->
+    <section data-section="special">
+      <div class="special">
+        <div class="special__inner">
+          <div class="special__text" data-anim="fade-right">
+            <p class="special__eyebrow" data-cms-field="eyebrow">Special menu</p>
+            <h2 class="special__title" data-cms-field="title"></h2>
+            <p class="special__subtitle" data-cms-field="subtitle"></p>
+
+            <div class="special__bullets" data-cms-list="items"></div>
+            <template data-cms-card="items">
+              <div class="special-bullet">
+                <div class="special-bullet__kicker" data-cms-card-field="kicker"></div>
+                <div class="special-bullet__text" data-cms-card-field="text"></div>
+              </div>
+            </template>
+
+            <div class="special__cta-row">
+              <a class="special__cta" href="#reservation" data-cms-field="ctaPrimary">Réserver</a>
+              <a class="special__cta special__cta--ghost" href="#carte" data-cms-field="ctaSecondary">Voir la carte</a>
+            </div>
+          </div>
+
+          <div class="special__media" data-anim="fade-left">
+            <div class="special__frame" data-cms-media="image">
+              <div class="special__frame-glow"></div>
+              <div data-cms-render></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ════════════════ MENU / PRICING (tabs) ════════════════ -->
     <section data-section="menu">
       <div class="menu">
         <div class="menu__header" data-anim="fade-up">
@@ -201,14 +254,51 @@
           <h2 class="menu__title" data-cms-field="title"></h2>
           <p class="menu__subtitle" data-cms-field="subtitle"></p>
         </div>
-        <div class="menu__grid" data-cms-list="items" data-anim="fade-up"></div>
-        <template data-cms-card="items">
-          <div class="menu-card">
-            <span class="menu-card__price" data-cms-card-field="price"></span>
-            <h3 class="menu-card__title" data-cms-card-field="title"></h3>
-            <p class="menu-card__desc" data-cms-card-field="description"></p>
-          </div>
-        </template>
+
+        <div class="menu-tabs" data-anim="fade-up">
+          <button class="menu-tab active" type="button" data-tab="appetizers" data-cms-field="tabAppetizers">Appetizers</button>
+          <button class="menu-tab" type="button" data-tab="mains" data-cms-field="tabMains">Main Courses</button>
+          <button class="menu-tab" type="button" data-tab="desserts" data-cms-field="tabDesserts">Dessert</button>
+          <button class="menu-tab" type="button" data-tab="cocktails" data-cms-field="tabCocktails">Cocktails</button>
+        </div>
+
+        <div class="menu__panes" data-anim="fade-up">
+          <div class="menu__grid" data-pane="appetizers" data-cms-list="appetizers"></div>
+          <template data-cms-card="appetizers">
+            <div class="menu-card">
+              <span class="menu-card__price" data-cms-card-field="price"></span>
+              <h3 class="menu-card__title" data-cms-card-field="title"></h3>
+              <p class="menu-card__desc" data-cms-card-field="description"></p>
+            </div>
+          </template>
+
+          <div class="menu__grid" data-pane="mains" data-cms-list="mains" hidden></div>
+          <template data-cms-card="mains">
+            <div class="menu-card">
+              <span class="menu-card__price" data-cms-card-field="price"></span>
+              <h3 class="menu-card__title" data-cms-card-field="title"></h3>
+              <p class="menu-card__desc" data-cms-card-field="description"></p>
+            </div>
+          </template>
+
+          <div class="menu__grid" data-pane="desserts" data-cms-list="desserts" hidden></div>
+          <template data-cms-card="desserts">
+            <div class="menu-card">
+              <span class="menu-card__price" data-cms-card-field="price"></span>
+              <h3 class="menu-card__title" data-cms-card-field="title"></h3>
+              <p class="menu-card__desc" data-cms-card-field="description"></p>
+            </div>
+          </template>
+
+          <div class="menu__grid" data-pane="cocktails" data-cms-list="cocktails" hidden></div>
+          <template data-cms-card="cocktails">
+            <div class="menu-card">
+              <span class="menu-card__price" data-cms-card-field="price"></span>
+              <h3 class="menu-card__title" data-cms-card-field="title"></h3>
+              <p class="menu-card__desc" data-cms-card-field="description"></p>
+            </div>
+          </template>
+        </div>
       </div>
     </section>
 

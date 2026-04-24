@@ -75,5 +75,26 @@
       }, { passive: true });
     });
   })();
+
+  // Menu tabs
+  (function menuTabs() {
+    var root = document.querySelector("[data-section=\"menu\"]");
+    if (!root) return;
+    var tabs = Array.prototype.slice.call(root.querySelectorAll(".menu-tab"));
+    var panes = Array.prototype.slice.call(root.querySelectorAll("[data-pane]"));
+    if (!tabs.length || !panes.length) return;
+
+    function show(name) {
+      tabs.forEach(function (t) { t.classList.toggle("active", t.dataset.tab === name); });
+      panes.forEach(function (p) {
+        var on = p.getAttribute("data-pane") === name;
+        p.hidden = !on;
+      });
+    }
+    show((tabs[0] && tabs[0].dataset.tab) || "appetizers");
+    tabs.forEach(function (t) {
+      t.addEventListener("click", function () { show(t.dataset.tab); });
+    });
+  })();
 })();
 

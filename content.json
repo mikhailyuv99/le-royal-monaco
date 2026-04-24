@@ -33,6 +33,30 @@
         "cta": "Découvrir le menu",
         "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=960&q=85&auto=format"
       },
+      "values": {
+        "eyebrow": "Valeurs",
+        "title": "Notre exigence,\nau quotidien",
+        "subtitle": "Tout ce que vous ressentez en salle commence bien avant votre arrivée : sourcing, gestes, précision, silence — puis service, lumière, rythme.",
+        "items": [
+          { "title": "Sourcing d’exception", "description": "Pêche de ligne, élevages responsables, maraîchers d’altitude. Nous travaillons au plus près des producteurs de la Riviera." },
+          { "title": "Hospitalité discrète", "description": "Un service calibré au geste près : présent quand il faut, invisible quand il faut. Une attention rare, jamais intrusive." },
+          { "title": "Innovation & tradition", "description": "Techniques contemporaines, âme méditerranéenne. Les classiques sont respectés — puis élevés, avec audace." }
+        ]
+      },
+      "special": {
+        "eyebrow": "Special menu",
+        "title": "Grilled Salmon\n& Prawn Steak",
+        "subtitle": "Un plat signature pensé comme un contraste parfait : gras noble, iodé, feu précis, et une finition au beurre noisette.",
+        "ctaPrimary": "Réserver",
+        "ctaSecondary": "Voir la carte",
+        "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?w=1200&q=85&auto=format",
+        "items": [
+          { "kicker": "Salmon", "text": "Saumon sélectionné, saisi au feu vif pour une texture nacrée et une peau ultra croustillante." },
+          { "kicker": "Prawn", "text": "Gambas rouges, bouncy et tendres, pour amplifier l’iodé et la longueur en bouche." },
+          { "kicker": "Seasonings", "text": "Herbes fraîches, agrumes, huile d’olive premium et une pointe de fleur de sel." },
+          { "kicker": "Vegetables", "text": "Légumes de saison, cuissons minute, pour un équilibre net et lumineux." }
+        ]
+      },
       "dishes": {
         "eyebrow": "Signatures",
         "title": "Une cuisine\nphotogénique",
@@ -66,13 +90,29 @@
         "eyebrow": "La Carte",
         "title": "Nos créations signatures",
         "subtitle": "Des plats d'exception composés avec les meilleurs produits de saison, livrés chaque matin depuis les marchés de la Riviera.",
-        "items": [
-          { "price": "€95", "title": "Homard Bleu de Bretagne", "description": "Bisque légère au safran de Provence, émulsion de corail, caviar Osciètre et chips de topinambour." },
-          { "price": "€120", "title": "Turbot Sauvage de Ligne", "description": "Rôti sur l'arête, beurre d'algues nori, artichaut violet de Provence et jus de coquillages réduit." },
-          { "price": "€85", "title": "Pigeon de Racan en Croûte", "description": "Farce fine aux cèpes et foie gras, sauce Périgueux, garniture forestière et pomme soufflée." },
-          { "price": "€145", "title": "Wagyu A5 Miyazaki", "description": "Grillé au binchotan, purée truffée, oignon de Cévennes caramélisé et jus de viande au miso." },
-          { "price": "€75", "title": "Saint-Jacques de Normandie", "description": "Snackées, purée de chou-fleur au beurre noisette, condiment yuzu-passion et voile de lard de Colonnata." },
-          { "price": "€280", "title": "Menu Dégustation 7 Services", "description": "Un voyage culinaire complet à travers les saveurs méditerranéennes. Accord mets-vins disponible (+€160)." }
+        "tabAppetizers": "Appetizers",
+        "tabMains": "Main Courses",
+        "tabDesserts": "Dessert",
+        "tabCocktails": "Cocktails",
+        "appetizers": [
+          { "price": "€65", "title": "Caviar Osciètre 30g", "description": "Blinis sarrasin, crème d’Isigny, ciboulette. Supplément 50g : +€90." },
+          { "price": "€48", "title": "Foie Gras de Canard", "description": "Mi-cuit maison, chutney de figues, brioche toastée, fleur de sel." },
+          { "price": "€75", "title": "Saint‑Jacques", "description": "Snackées, chou‑fleur beurre noisette, yuzu, voile de lard de Colonnata." }
+        ],
+        "mains": [
+          { "price": "€95", "title": "Homard Bleu de Bretagne", "description": "Bisque au safran, émulsion de corail, caviar Osciètre, chips topinambour." },
+          { "price": "€120", "title": "Turbot Sauvage de Ligne", "description": "Rôti sur l’arête, beurre nori, artichaut violet, jus de coquillages réduit." },
+          { "price": "€145", "title": "Wagyu A5 Miyazaki", "description": "Binchotan, purée truffée, oignon caramélisé, jus miso." }
+        ],
+        "desserts": [
+          { "price": "€32", "title": "Soufflé au Grand Marnier", "description": "Glace vanille de Madagascar, zeste d’orange confite." },
+          { "price": "€38", "title": "Tarte Tatin Revisitée", "description": "Pommes caramélisées, tuile dentelle, caramel beurre salé." },
+          { "price": "€28", "title": "Chocolat Grand Cru", "description": "Mousse légère, croustillant praliné, fleur de sel." }
+        ],
+        "cocktails": [
+          { "price": "€22", "title": "Monte‑Carlo 75", "description": "Gin, champagne, citron, infusion jasmin." },
+          { "price": "€24", "title": "Royal Negroni", "description": "Campari, vermouth, gin, zeste d’orange, cacao." },
+          { "price": "€18", "title": "Mediterranean Spritz", "description": "Bitter, agrumes, herbes fraîches, prosecco." }
         ]
       },
       "gallery": {
@@ -143,6 +183,30 @@
         "cta": "Explore the menu",
         "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=960&q=85&auto=format"
       },
+      "values": {
+        "eyebrow": "Values",
+        "title": "Excellence,\nevery day",
+        "subtitle": "Everything you feel in the dining room starts long before you arrive: sourcing, craft, precision, silence — then service, light, rhythm.",
+        "items": [
+          { "title": "Exceptional sourcing", "description": "Line‑caught fish, responsible farms, mountain growers. We work close to Riviera artisans." },
+          { "title": "Discreet hospitality", "description": "A service calibrated to the gesture: present when needed, invisible when not. Rare attention, never intrusive." },
+          { "title": "Innovation & tradition", "description": "Modern technique, Mediterranean soul. Classics are respected — then elevated, with boldness." }
+        ]
+      },
+      "special": {
+        "eyebrow": "Special menu",
+        "title": "Grilled Salmon\n& Prawn Steak",
+        "subtitle": "A signature contrast: noble fat, iodine, precise fire, finished with brown butter and citrus.",
+        "ctaPrimary": "Reserve",
+        "ctaSecondary": "View menu",
+        "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?w=1200&q=85&auto=format",
+        "items": [
+          { "kicker": "Salmon", "text": "Selected salmon, seared over high heat for a pearly center and ultra‑crispy skin." },
+          { "kicker": "Prawn", "text": "Red prawns — tender, bouncy, and intensely oceanic for a long finish." },
+          { "kicker": "Seasonings", "text": "Fresh herbs, citrus, premium olive oil, finished with fleur de sel." },
+          { "kicker": "Vegetables", "text": "Seasonal vegetables, minute cooking, for a clean and luminous balance." }
+        ]
+      },
       "dishes": {
         "eyebrow": "Signatures",
         "title": "Cuisine that\nphotographs",
@@ -176,13 +240,29 @@
         "eyebrow": "À la carte",
         "title": "Signature creations",
         "subtitle": "Extraordinary dishes crafted with the finest seasonal ingredients, sourced each morning from the Riviera’s markets.",
-        "items": [
+        "tabAppetizers": "Appetizers",
+        "tabMains": "Main Courses",
+        "tabDesserts": "Dessert",
+        "tabCocktails": "Cocktails",
+        "appetizers": [
+          { "price": "€65", "title": "Osciètre Caviar 30g", "description": "Buckwheat blinis, Isigny cream, chives. 50g add‑on: +€90." },
+          { "price": "€48", "title": "Duck Foie Gras", "description": "House mi‑cuit, fig chutney, toasted brioche, fleur de sel." },
+          { "price": "€75", "title": "Normandy Scallops", "description": "Seared, brown‑butter cauliflower, yuzu condiment, Colonnata lardo veil." }
+        ],
+        "mains": [
           { "price": "€95", "title": "Brittany Blue Lobster", "description": "Saffron bisque, coral emulsion, Osciètre caviar, Jerusalem artichoke crisps." },
           { "price": "€120", "title": "Wild Line‑Caught Turbot", "description": "Roasted on the bone, nori butter, violet artichoke, reduced shellfish jus." },
-          { "price": "€85", "title": "Racan Pigeon en Croûte", "description": "Fine forcemeat with porcini and foie gras, Périgueux sauce, forest garnish." },
-          { "price": "€145", "title": "Miyazaki A5 Wagyu", "description": "Binchotan grilled, truffled purée, caramelized onion, miso jus." },
-          { "price": "€75", "title": "Normandy Scallops", "description": "Seared, brown‑butter cauliflower, yuzu condiment, Colonnata lardo veil." },
-          { "price": "€280", "title": "7‑Course Tasting Menu", "description": "A complete Mediterranean journey. Wine pairing available (+€160)." }
+          { "price": "€145", "title": "Miyazaki A5 Wagyu", "description": "Binchotan grilled, truffled purée, caramelized sweet onion, miso glaze." }
+        ],
+        "desserts": [
+          { "price": "€32", "title": "Grand Marnier Soufflé", "description": "Madagascar vanilla ice cream, candied orange zest." },
+          { "price": "€38", "title": "Reimagined Tarte Tatin", "description": "Caramelized apples, lace tuile, salted caramel." },
+          { "price": "€28", "title": "Grand Cru Chocolate", "description": "Light mousse, praline crunch, fleur de sel." }
+        ],
+        "cocktails": [
+          { "price": "€22", "title": "Monte‑Carlo 75", "description": "Gin, champagne, lemon, jasmine infusion." },
+          { "price": "€24", "title": "Royal Negroni", "description": "Campari, vermouth, gin, orange zest, cacao." },
+          { "price": "€18", "title": "Mediterranean Spritz", "description": "Bitter, citrus, fresh herbs, prosecco." }
         ]
       },
       "gallery": {

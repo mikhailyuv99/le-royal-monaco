@@ -32,12 +32,29 @@
     document.querySelectorAll(".site-nav__link").forEach(function (a) {
       a.classList.toggle("active", a.dataset.page === currentSlug);
     });
+    document.querySelectorAll(".nav__lang-btn").forEach(function (a) {
+      var want = a.getAttribute("data-lang");
+      var isEn = /-en$/.test(currentSlug);
+      a.classList.toggle("active", (want === "en" && isEn) || (want === "fr" && !isEn));
+    });
   }
   if (navEl) navEl.addEventListener("click", function (e) {
     var link = e.target.closest(".site-nav__link"); if (!link) return; e.preventDefault();
     var slug = link.dataset.page;
     if (slug && slug !== currentSlug) {
       currentSlug = slug; renderPage(pageData(slug)); activateNav();
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+  });
+  if (navEl) navEl.addEventListener("click", function (e) {
+    var link = e.target.closest(".nav__lang-btn"); if (!link) return; e.preventDefault();
+    var want = link.getAttribute("data-lang");
+    if (!want) return;
+    var base = currentSlug.replace(/-en$/, "");
+    var next = want === "en" ? (base + "-en") : base;
+    if (content && content.pages && content.pages[next] && next !== currentSlug) {
+      currentSlug = next; renderPage(pageData(next)); activateNav();
+      window.location.hash = "#" + next;
       window.scrollTo({ top: 0, behavior: "smooth" });
     }
   });
